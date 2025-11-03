@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercitiul 3</title>
+</head>
+<body>
+  <script>
+    let a = 19;
+    let b = 20;
+    let c = 21;
+
+    let numere = [a, b, c];
+    numere.sort(function(x, y) {
+      return y - x; 
+    });
+
+    console.log(`Numerele în ordine descrescătoare sunt: ${numere.join(", ")}`);
+  </script>
+</body>
+</html>

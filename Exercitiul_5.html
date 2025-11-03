@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercitiul 5</title>
+</head>
+<body>
+  <script>
+    let a = 9;
+    let b = 4;
+    let c = 9;
+
+    if (a + b > c && a + c > b && b + c > a) {
+      console.log("Cele 3 numere pot forma un triunghi.");
+
+      if (a === b && b === c) {
+        console.log("Triunghiul este echilateral.");
+      } else if (a === b || a === c || b === c) {
+        console.log("Triunghiul este isoscel.");
+      } else {
+        console.log("Triunghiul este oarecare.");
+      }
+    } else {
+      console.log("Cele 3 numere NU pot forma un triunghi!");
+    }
+  </script>
+</body>
+</html>
