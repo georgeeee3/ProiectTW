@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+.produs-container {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.placeholder-produs {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    color: #555;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    border: 2px dashed #aaa;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#detalii p {
+    line-height: 1.5;
+    color: #333;
+}
+
+#dataProdus {
+    font-weight: bold;
+    color: #000;
+}
+
+.ascuns {
+    display: none;
+}
